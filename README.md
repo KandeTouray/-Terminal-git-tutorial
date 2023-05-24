@@ -41,6 +41,7 @@ Svar: Git branches är en typ av funktion inom “git” Branch kan vara separat
 18.
 Svar:git branch newbranch, git switch newbranch. 
 19. mkdir newBranch.txt git add newBranch.txt git commit-m"newfile to the new branch"
+        
 27.echo "# Github" >> README.md
 git init
 git add README.md
@@ -48,3 +49,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/KandeTouray/Github.git
 git push -u origin main
+        
+28. git branch -m master main
+git push -u origin main
+
+29. git push origin <branch-name>
+git push origin main
+
+30. mkdir my-repo
+cd my-repo
+git clone https://github.com/username/repository.git
